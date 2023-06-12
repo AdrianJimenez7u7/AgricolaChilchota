@@ -1,0 +1,36 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.datatables.net/1.13.4/css/jquery.dataTables.min.css">
+    <title>lOG IN</title>
+    <link rel="stylesheet"  href="Sesion/style.css">
+    <script defer src="ajax.googleapis.com_ajax_libs_jquery_3.6.0_jquery.min.js"></script>
+    <script defer src="login.js"></script>
+    <title>LOG IN</title>
+</head>
+<body>
+    <div class="contairner-body">
+        <section id="usuarios">
+            <div class="container-cards">
+                <div class="informacion">
+                    <div class="imagen">
+                        <img src="assets/imagenes/logo.jpg" width="150px" height="150px">
+                    </div>
+                    <div class="Registro">
+                    <form  class="formulario" action="login.php" method="post">
+                        <input name="empleado" id="empleado" class="empleado" type="text" placeholder="ususario">
+                        <input name="contraseña" id="contraseña" class="contraseña" type="password" placeholder="contraseña">                      
+                        <input type="submit" class="ingresar" value="iniciar sesion">
+                    </form>
+                    <h2 id="message"></h2>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+</body>
+</html>
